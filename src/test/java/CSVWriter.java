@@ -4,6 +4,8 @@ import java.io.PrintWriter;
 
 public class CSVWriter {
 
+    /** http://qaru.site/questions/415467/java-writing-strings-to-a-csv-file s*/
+
     public static void main(String[] args) {
 
         try (PrintWriter writer = new PrintWriter(new File("test1.csv"))) {
